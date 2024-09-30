@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of a Web Developer">
+  <title>Justine Mallari Navarro | Javascript Web Developer | Gamer | Harvey Beaks Fan</title>
+  <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Justine Mallari Navarro</h1>
+      <p class="bouncing">
+        JavaScript Web Developer
+      </p>
+      <nav>
+        <ul>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#certificates"></a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="projects" class="container">
+    <h2>Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <h3>Factions of Alpha Centauri</h3>
+        <img id="projectimg" src="site1test.png" alt="">
+        <p>Simple CSS and HTML is used to design this with a bit of interactivity.</p>
+        <a href="alphacen.html" class="btn">View Project</a>
+      </div>
+      <div class="project-card">
+        <h3>Profile for Harvey Beaks</h3>
+        <img id="projectimg" src="site2test.png" alt="">
+        <p>Another CSS and HTML site with some interactivity</p>
+        <a href="meetharv.html" class="btn">View Project</a>
+      </div>
+      <!-- Add more projects as needed -->
+    </div>
+  </section>
+
+  <section id="about" class="container">
+    <h2>About Me</h2>
+    <p>Hello! I'm a freelance web developer specializing in front-end and back-end development. I have experience working with technologies like HTML, CSS, JavaScript. Currently studying as an undergraduate in Marketing although I have now finished some certificates in Freecodecamp, Simplilearn and IBMSkillsbuild</p>
+  </section>
+
+  <section id="certificates">
+      <h2>My certificates</h2>
+      <ul>
+          <li><a href="https://www.freecodecamp.org/certification/JMN4444/responsive-web-design" class="btn">Responsive Web Design</a></li>
+          <li><a href="https://www.freecodecamp.org/certification/JMN4444/javascript-algorithms-and-data-structures" class="btn">Javascript Algorithms and data structures</a></li>
+          <li><a href="https://www.credly.com/badges/369a4d18-595d-4348-9ec4-cf36cfe3d536/public_url" class="btn">Web Development Fundamentals</a></li>
+  
+      </ul>
+  </section>
+
+  <section id="contact" class="container">
+    <h2>Contact</h2>
+    <form action="submit_form.php" method="POST">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+      
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 Justine Mallari Navarro | Web Developer and Marketing</p>
+    </div>
+  </footer>
+</body>
+</html>

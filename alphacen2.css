@@ -1,0 +1,173 @@
+/* Body Styles */
+body {
+    background-image: url(https://static.wikia.nocookie.net/civilization/images/0/02/Chiron.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: Ghostwhite;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Navigation */
+nav {
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    list-style: none;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+/* Main Section Styles */
+section {
+    padding: 100px 20px 50px 20px;
+    margin-top: 60px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: Ghostwhite;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+/* Headings */
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Faction Sections */
+.faction {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.faction-stats {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 60%;
+}
+
+.faction-stats li {
+    margin-bottom: 10px;
+}
+
+.Facleader {
+        width: 30%; /* Adjusted percentage to ensure it's not too large */
+        max-width: 300px; /* Maximum size to avoid oversized images on large screens */
+        height: auto; /* Maintain aspect ratio */
+        border: 3px solid black;
+        border-radius: 10px;
+        margin-left: 5%; /* Adjust margins for better positioning */
+}
+
+/* Specific Faction Backgrounds */
+#Lords_Believers {
+    background: linear-gradient(#ec5c00, #f28d4d);
+    border: 5px solid orange;
+}
+
+#University_of_Planet {
+    background: linear-gradient(#f8f8ed, #aeaea6);
+    border: 5px solid yellow;
+    color: black
+}
+
+#Spartan_Federation {
+    background: linear-gradient(#242423, #333332);
+    border: 5px solid white;
+}
+
+#Human_Hive {
+    background: linear-gradient(#0f04c3, #04013a);
+    border: 5px solid darkblue;
+}
+
+#Morgan_Industries {
+    background: linear-gradient(#dbcd17, #585209);
+    border: 5px solid yellow;
+}
+
+#Peacekeepers {
+    background: linear-gradient(#397bce, #b0caeb);
+    border: 5px solid ghostwhite;
+    color: black;
+}
+
+#Gaias_Stepdaughters {
+    background: linear-gradient(#015201, #5c0202);
+    border: 5px solid darkgreen;
+}
+
+/* Paragraphs */
+p {
+    margin: 20px 0;
+    line-height: 1.6;
+}
+
+/* Responsive Design */
+@media only screen and (max-width: 768px) {
+    .faction {
+        flex-direction: column;
+    }
+    
+    .faction-stats {
+        width: 100%;
+    }
+    
+    .Facleader {
+        width: 100%;
+        margin-top: 20px;
+    }
+}
+
+@media (prefers-reduced-motion) {
+    * {
+        scroll-behavior: smooth;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .Facleader {
+        width: 100%; /* On smaller screens, take up full width but */
+        max-width: 500px; /* Limit to avoid oversized images */
+        margin-left: 0; /* Remove margin for cleaner mobile view */
+    }
+}

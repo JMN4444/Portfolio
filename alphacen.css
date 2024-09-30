@@ -1,0 +1,114 @@
+body {
+    background-image: url(https://static.wikia.nocookie.net/civilization/images/0/02/Chiron.png);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-attachment: fixed;
+    color: Ghostwhite;
+    font-family: Arial;
+  }
+  .Facleader{
+    float: right;
+    border: 3px solid black;
+    margin-left: 30%;
+    margin-right: 5%;
+    width: 30%;
+    height: 30%;
+    
+  }
+  .faction-stats{
+    list-style: none;
+  }
+  .faction-stats > li{
+    margin-bottom: 3px;
+  }
+  .faction{
+    display: flex
+  }
+  #factions{
+    background-color: rgba(0, 0, 0 ,50%)
+  }
+  h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  #Lords_Believers{
+    background-image: linear-gradient(#ec5c00, #f28d4d);
+    border: 10px groove orange;
+    color: black;
+  }
+  #University_of_Planet{
+    background-image: linear-gradient(#f8f8ed, #aeaea6);
+    border: 10px groove yellow;
+    color: black;
+  }
+  #Spartan_Federation{
+    background-image: linear-gradient(
+  #242423, #333332);
+    border: 10px groove White;
+    color: Ghostwhite;
+  }
+  #Human_Hive{
+    background-image: linear-gradient(
+  #0f04c3, #04013a);
+    border: 10px groove Darkblue;
+    color: Ghostwhite;
+  }
+  #Morgan_Industries{
+    background-image: linear-gradient(
+  #dbcd17, #585209);
+    border: 10px groove Yellow;
+    color: Ghostwhite;
+  }
+  #Peacekeepers{
+    background-image: linear-gradient(
+  #397bce, #b0caeb);
+    border: 10px groove Ghostwhite;
+    color: Black;
+  }
+  #Gaias_Stepdaughters{
+    background-image: linear-gradient(
+  #015201,
+  #5c0202);
+    border: 10px groove DarkGreen;
+    color: Ghostwhite;
+  }
+  section{
+    margin-bottom: 100px;
+  }
+  ul{
+    list-style: none;
+  }
+  
+  
+  
+  p{
+    padding: 0 10px 0 10px;
+  }
+  @media(max-width: 400px) and(min-width: 300px){
+    .facleader{
+      visibility: hidden;
+    }
+  }
+  
+  nav {
+    Background-color: black;
+  }
+  
+  nav > ul {
+    display: inline-block;
+    font-family: Impact;
+    margin: 10px;
+    padding: 10px 4px 10px 10px;
+     
+  }
+  nav > ul > li {
+    padding-bottom: 10px;
+    border: 3px solid black;
+    background-image: linear-gradient(silver, white)
+  }
+  @media (prefers-reduced-motion) {
+    *{
+      scroll-behavior: smooth;
+    }
+    }
